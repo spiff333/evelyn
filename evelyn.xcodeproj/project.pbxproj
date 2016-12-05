@@ -14,6 +14,7 @@
 		DA1149E41DF52AAE00802867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1149E21DF52AAE00802867 /* LaunchScreen.storyboard */; };
 		DA1149EF1DF52AAE00802867 /* evelynTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149EE1DF52AAE00802867 /* evelynTests.swift */; };
 		DA1149FA1DF52AAE00802867 /* evelynUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149F91DF52AAE00802867 /* evelynUITests.swift */; };
+		DA114A081DF52EE500802867 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA114A071DF52EE500802867 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA1149F51DF52AAE00802867 /* evelynUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evelynUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1149F91DF52AAE00802867 /* evelynUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evelynUITests.swift; sourceTree = "<group>"; };
 		DA1149FB1DF52AAE00802867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA114A071DF52EE500802867 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		DA1149CD1DF52AAD00802867 = {
 			isa = PBXGroup;
 			children = (
+				DA114A071DF52EE500802867 /* .gitignore */,
 				DA1149D81DF52AAE00802867 /* evelyn */,
 				DA1149ED1DF52AAE00802867 /* evelynTests */,
 				DA1149F81DF52AAE00802867 /* evelynUITests */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA114A081DF52EE500802867 /* .gitignore in Resources */,
 				DA1149E41DF52AAE00802867 /* LaunchScreen.storyboard in Resources */,
 				DA1149E11DF52AAE00802867 /* Assets.xcassets in Resources */,
 				DA1149DF1DF52AAE00802867 /* Main.storyboard in Resources */,
