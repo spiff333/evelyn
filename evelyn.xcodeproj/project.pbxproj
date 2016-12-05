@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1149DA1DF52AAE00802867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149D91DF52AAE00802867 /* AppDelegate.swift */; };
+		DA1149DC1DF52AAE00802867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149DB1DF52AAE00802867 /* ViewController.swift */; };
+		DA1149DF1DF52AAE00802867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1149DD1DF52AAE00802867 /* Main.storyboard */; };
+		DA1149E11DF52AAE00802867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1149E01DF52AAE00802867 /* Assets.xcassets */; };
+		DA1149E41DF52AAE00802867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1149E21DF52AAE00802867 /* LaunchScreen.storyboard */; };
+		DA1149EF1DF52AAE00802867 /* evelynTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149EE1DF52AAE00802867 /* evelynTests.swift */; };
+		DA1149FA1DF52AAE00802867 /* evelynUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149F91DF52AAE00802867 /* evelynUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1149EB1DF52AAE00802867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1149CE1DF52AAD00802867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1149D51DF52AAD00802867;
+			remoteInfo = evelyn;
+		};
+		DA1149F61DF52AAE00802867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1149CE1DF52AAD00802867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1149D51DF52AAD00802867;
+			remoteInfo = evelyn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA1149D61DF52AAE00802867 /* evelyn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evelyn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1149D91DF52AAE00802867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA1149DB1DF52AAE00802867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA1149DE1DF52AAE00802867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA1149E01DF52AAE00802867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1149E31DF52AAE00802867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA1149E51DF52AAE00802867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1149EA1DF52AAE00802867 /* evelynTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evelynTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1149EE1DF52AAE00802867 /* evelynTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evelynTests.swift; sourceTree = "<group>"; };
+		DA1149F01DF52AAE00802867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1149F51DF52AAE00802867 /* evelynUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evelynUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1149F91DF52AAE00802867 /* evelynUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evelynUITests.swift; sourceTree = "<group>"; };
+		DA1149FB1DF52AAE00802867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1149D31DF52AAD00802867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1149E71DF52AAE00802867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1149F21DF52AAE00802867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1149CD1DF52AAD00802867 = {
+			isa = PBXGroup;
+			children = (
+				DA1149D81DF52AAE00802867 /* evelyn */,
+				DA1149ED1DF52AAE00802867 /* evelynTests */,
+				DA1149F81DF52AAE00802867 /* evelynUITests */,
+				DA1149D71DF52AAE00802867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1149D71DF52AAE00802867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1149D61DF52AAE00802867 /* evelyn.app */,
+				DA1149EA1DF52AAE00802867 /* evelynTests.xctest */,
+				DA1149F51DF52AAE00802867 /* evelynUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1149D81DF52AAE00802867 /* evelyn */ = {
+			isa = PBXGroup;
+			children = (
+				DA1149D91DF52AAE00802867 /* AppDelegate.swift */,
+				DA1149DB1DF52AAE00802867 /* ViewController.swift */,
+				DA1149DD1DF52AAE00802867 /* Main.storyboard */,
+				DA1149E01DF52AAE00802867 /* Assets.xcassets */,
+				DA1149E21DF52AAE00802867 /* LaunchScreen.storyboard */,
+				DA1149E51DF52AAE00802867 /* Info.plist */,
+			);
+			path = evelyn;
+			sourceTree = "<group>";
+		};
+		DA1149ED1DF52AAE00802867 /* evelynTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1149EE1DF52AAE00802867 /* evelynTests.swift */,
+				DA1149F01DF52AAE00802867 /* Info.plist */,
+			);
+			path = evelynTests;
+			sourceTree = "<group>";
+		};
+		DA1149F81DF52AAE00802867 /* evelynUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1149F91DF52AAE00802867 /* evelynUITests.swift */,
+				DA1149FB1DF52AAE00802867 /* Info.plist */,
+			);
+			path = evelynUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1149D51DF52AAD00802867 /* evelyn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1149FE1DF52AAE00802867 /* Build configuration list for PBXNativeTarget "evelyn" */;
+			buildPhases = (
+				DA1149D21DF52AAD00802867 /* Sources */,
+				DA1149D31DF52AAD00802867 /* Frameworks */,
+				DA1149D41DF52AAD00802867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = evelyn;
+			productName = evelyn;
+			productReference = DA1149D61DF52AAE00802867 /* evelyn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA1149E91DF52AAE00802867 /* evelynTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA114A011DF52AAE00802867 /* Build configuration list for PBXNativeTarget "evelynTests" */;
+			buildPhases = (
+				DA1149E61DF52AAE00802867 /* Sources */,
+				DA1149E71DF52AAE00802867 /* Frameworks */,
+				DA1149E81DF52AAE00802867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1149EC1DF52AAE00802867 /* PBXTargetDependency */,
+			);
+			name = evelynTests;
+			productName = evelynTests;
+			productReference = DA1149EA1DF52AAE00802867 /* evelynTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA1149F41DF52AAE00802867 /* evelynUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA114A041DF52AAE00802867 /* Build configuration list for PBXNativeTarget "evelynUITests" */;
+			buildPhases = (
+				DA1149F11DF52AAE00802867 /* Sources */,
+				DA1149F21DF52AAE00802867 /* Frameworks */,
+				DA1149F31DF52AAE00802867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1149F71DF52AAE00802867 /* PBXTargetDependency */,
+			);
+			name = evelynUITests;
+			productName = evelynUITests;
+			productReference = DA1149F51DF52AAE00802867 /* evelynUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA1149CE1DF52AAD00802867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Marc Plassmeier";
+				TargetAttributes = {
+					DA1149D51DF52AAD00802867 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BB93KBGM5N;
+						ProvisioningStyle = Automatic;
+					};
+					DA1149E91DF52AAE00802867 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BB93KBGM5N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1149D51DF52AAD00802867;
+					};
+					DA1149F41DF52AAE00802867 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BB93KBGM5N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA1149D51DF52AAD00802867;
+					};
+				};
+			};
+			buildConfigurationList = DA1149D11DF52AAD00802867 /* Build configuration list for PBXProject "evelyn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA1149CD1DF52AAD00802867;
+			productRefGroup = DA1149D71DF52AAE00802867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1149D51DF52AAD00802867 /* evelyn */,
+				DA1149E91DF52AAE00802867 /* evelynTests */,
+				DA1149F41DF52AAE00802867 /* evelynUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1149D41DF52AAD00802867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1149E41DF52AAE00802867 /* LaunchScreen.storyboard in Resources */,
+				DA1149E11DF52AAE00802867 /* Assets.xcassets in Resources */,
+				DA1149DF1DF52AAE00802867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1149E81DF52AAE00802867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1149F31DF52AAE00802867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1149D21DF52AAD00802867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1149DC1DF52AAE00802867 /* ViewController.swift in Sources */,
+				DA1149DA1DF52AAE00802867 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1149E61DF52AAE00802867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1149EF1DF52AAE00802867 /* evelynTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1149F11DF52AAE00802867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1149FA1DF52AAE00802867 /* evelynUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1149EC1DF52AAE00802867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1149D51DF52AAD00802867 /* evelyn */;
+			targetProxy = DA1149EB1DF52AAE00802867 /* PBXContainerItemProxy */;
+		};
+		DA1149F71DF52AAE00802867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1149D51DF52AAD00802867 /* evelyn */;
+			targetProxy = DA1149F61DF52AAE00802867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA1149DD1DF52AAE00802867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1149DE1DF52AAE00802867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1149E21DF52AAE00802867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1149E31DF52AAE00802867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA1149FC1DF52AAE00802867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA1149FD1DF52AAE00802867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA1149FF1DF52AAE00802867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BB93KBGM5N;
+				INFOPLIST_FILE = evelyn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.i2dm.evelyn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA114A001DF52AAE00802867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BB93KBGM5N;
+				INFOPLIST_FILE = evelyn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.i2dm.evelyn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DA114A021DF52AAE00802867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BB93KBGM5N;
+				INFOPLIST_FILE = evelynTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.i2dm.evelynTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evelyn.app/evelyn";
+			};
+			name = Debug;
+		};
+		DA114A031DF52AAE00802867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BB93KBGM5N;
+				INFOPLIST_FILE = evelynTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.i2dm.evelynTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evelyn.app/evelyn";
+			};
+			name = Release;
+		};
+		DA114A051DF52AAE00802867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BB93KBGM5N;
+				INFOPLIST_FILE = evelynUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.i2dm.evelynUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = evelyn;
+			};
+			name = Debug;
+		};
+		DA114A061DF52AAE00802867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BB93KBGM5N;
+				INFOPLIST_FILE = evelynUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.i2dm.evelynUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = evelyn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1149D11DF52AAD00802867 /* Build configuration list for PBXProject "evelyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1149FC1DF52AAE00802867 /* Debug */,
+				DA1149FD1DF52AAE00802867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1149FE1DF52AAE00802867 /* Build configuration list for PBXNativeTarget "evelyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1149FF1DF52AAE00802867 /* Debug */,
+				DA114A001DF52AAE00802867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA114A011DF52AAE00802867 /* Build configuration list for PBXNativeTarget "evelynTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA114A021DF52AAE00802867 /* Debug */,
+				DA114A031DF52AAE00802867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA114A041DF52AAE00802867 /* Build configuration list for PBXNativeTarget "evelynUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA114A051DF52AAE00802867 /* Debug */,
+				DA114A061DF52AAE00802867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA1149CE1DF52AAD00802867 /* Project object */;
+}
