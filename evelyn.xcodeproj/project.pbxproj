@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F29BEFA4790951798AB061E /* Pods_evelyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9045F71CFD08354122DB62AC /* Pods_evelyn.framework */; };
 		DA1149DA1DF52AAE00802867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149D91DF52AAE00802867 /* AppDelegate.swift */; };
 		DA1149DC1DF52AAE00802867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149DB1DF52AAE00802867 /* ViewController.swift */; };
 		DA1149DF1DF52AAE00802867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1149DD1DF52AAE00802867 /* Main.storyboard */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092DEF27BA45690D98849B2F /* Pods-evelyn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-evelyn.release.xcconfig"; path = "Pods/Target Support Files/Pods-evelyn/Pods-evelyn.release.xcconfig"; sourceTree = "<group>"; };
+		7F907BBCBCDDCBF10E39A5A2 /* Pods-evelyn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-evelyn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-evelyn/Pods-evelyn.debug.xcconfig"; sourceTree = "<group>"; };
+		9045F71CFD08354122DB62AC /* Pods_evelyn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_evelyn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1149D61DF52AAE00802867 /* evelyn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evelyn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1149D91DF52AAE00802867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA1149DB1DF52AAE00802867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F29BEFA4790951798AB061E /* Pods_evelyn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7069F08435254AC36AB1B157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9045F71CFD08354122DB62AC /* Pods_evelyn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DFD9B5690B130EE917A254D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F907BBCBCDDCBF10E39A5A2 /* Pods-evelyn.debug.xcconfig */,
+				092DEF27BA45690D98849B2F /* Pods-evelyn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA1149CD1DF52AAD00802867 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +109,8 @@
 				DA1149ED1DF52AAE00802867 /* evelynTests */,
 				DA1149F81DF52AAE00802867 /* evelynUITests */,
 				DA1149D71DF52AAE00802867 /* Products */,
+				8DFD9B5690B130EE917A254D /* Pods */,
+				7069F08435254AC36AB1B157 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA1149FE1DF52AAE00802867 /* Build configuration list for PBXNativeTarget "evelyn" */;
 			buildPhases = (
+				64FDBF410A3B65A6E4B65365 /* [CP] Check Pods Manifest.lock */,
 				DA1149D21DF52AAD00802867 /* Sources */,
 				DA1149D31DF52AAD00802867 /* Frameworks */,
 				DA1149D41DF52AAD00802867 /* Resources */,
+				4E864BB926AABF7189EC832A /* [CP] Embed Pods Frameworks */,
+				88D113CE59D820FB70BC2459 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E864BB926AABF7189EC832A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-evelyn/Pods-evelyn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FDBF410A3B65A6E4B65365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88D113CE59D820FB70BC2459 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-evelyn/Pods-evelyn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA1149D21DF52AAD00802867 /* Sources */ = {
@@ -419,6 +494,7 @@
 		};
 		DA1149FF1DF52AAE00802867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F907BBCBCDDCBF10E39A5A2 /* Pods-evelyn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BB93KBGM5N;
@@ -432,6 +508,7 @@
 		};
 		DA114A001DF52AAE00802867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092DEF27BA45690D98849B2F /* Pods-evelyn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BB93KBGM5N;
