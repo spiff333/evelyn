@@ -15,6 +15,7 @@
 		DA1149EF1DF52AAE00802867 /* evelynTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149EE1DF52AAE00802867 /* evelynTests.swift */; };
 		DA1149FA1DF52AAE00802867 /* evelynUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1149F91DF52AAE00802867 /* evelynUITests.swift */; };
 		DA114A081DF52EE500802867 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA114A071DF52EE500802867 /* .gitignore */; };
+		DA114A0A1DF6509300802867 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DA114A091DF6509300802867 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DA1149F91DF52AAE00802867 /* evelynUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evelynUITests.swift; sourceTree = "<group>"; };
 		DA1149FB1DF52AAE00802867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA114A071DF52EE500802867 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA114A091DF6509300802867 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		DA1149CD1DF52AAD00802867 = {
 			isa = PBXGroup;
 			children = (
+				DA114A091DF6509300802867 /* Podfile */,
 				DA114A071DF52EE500802867 /* .gitignore */,
 				DA1149D81DF52AAE00802867 /* evelyn */,
 				DA1149ED1DF52AAE00802867 /* evelynTests */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA114A0A1DF6509300802867 /* Podfile in Resources */,
 				DA114A081DF52EE500802867 /* .gitignore in Resources */,
 				DA1149E41DF52AAE00802867 /* LaunchScreen.storyboard in Resources */,
 				DA1149E11DF52AAE00802867 /* Assets.xcassets in Resources */,

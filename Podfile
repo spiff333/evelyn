@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+use_frameworks!
+
+target 'evelyn' do
+    pod 'UICKeyChainStore', '~> 2.0.6'
+    pod 'AWSCognito', '~> 2.2.5'
+    pod 'FBSDKCoreKit', '~> 4.9'
+    pod 'FBSDKLoginKit', '~> 4.9'
+    pod 'FBSDKShareKit', '~> 4.9'
+    pod 'google-plus-ios-sdk', '~> 1.7.1'
+    pod 'TwitterKit', '~> 1.12.0'
+    pod 'Fabric', '~> 1.5.0'
+    pod 'TwitterCore', '~> 1.12.0'
+    pod 'Digits', '~> 1.12.0'
+end
+
